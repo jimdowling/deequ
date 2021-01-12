@@ -270,7 +270,7 @@ class ColumnProfilerRunBuilderWithSparkSession(
     *                       should be overwritten
     */
   def overwritePreviousFiles(overwriteFiles: Boolean): this.type = {
-    overwriteOutputFiles = overwriteOutputFiles
+    overwriteOutputFiles = overwriteFiles
     this
   }
 }
